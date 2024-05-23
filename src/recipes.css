@@ -1,0 +1,93 @@
+
+@media (prefers-reduced-motion: no-preference) {
+    .card{
+        margin-left: 30px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .card-image img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        cursor: pointer; 
+    }
+    .save {
+        margin-left: 10px; 
+    }
+
+    .meal-plans{
+        margin-top: 1vw;
+        margin-left: 0.5rem;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .field{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .card-image img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        cursor: pointer; 
+    }
+
+    .box-plan {
+        width: 30%;
+        margin-bottom: 10px;
+    }
+
+    .box-home {
+        width: 100%;
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+
+    .recipe-selections {
+        width: 70%;
+        position: fixed; 
+        margin-top: 50px; 
+        margin-bottom: 20px;
+        top: 0;
+        right: 0; 
+        bottom: 0;
+        height: 100%; 
+        overflow-y: auto; 
+    }
+
+    .recipe-selections {
+        width: 70%;
+        position: fixed; 
+        margin-top: 50px; 
+        margin-bottom: 20px;
+        top: 0;
+        right: 0; 
+        bottom: 0;
+        height: 100%; 
+        overflow-y: auto; 
+    }
+
+    .select-save-container {
+        display: flex;
+        align-items: center;
+    }
+    
+    .save {
+        margin-left: 10px; 
+    }
+
+    .meal-plans {
+        text-align: left;
+        margin-left: 10px;
+        left: 400px;
+    }
+    
+
+  
+}

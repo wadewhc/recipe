@@ -1,0 +1,122 @@
+.nutrition-form-container {
+  text-align: center;
+}
+
+.nutrition-page input[type="text"] {
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 20%;
+  margin-bottom: 10px;
+}
+
+.nutrition-page button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.nutrition-page button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.nutrition-page {
+  font-family: Arial, sans-serif;
+}
+
+.error-message {
+  text-align: center;
+  font-size: 25px;
+}
+
+.nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+  font-size: 25px;
+  margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.nutrition-table th,
+.nutrition-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.ingredient-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 25px;
+  margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.ingredient-table th,
+.ingredient-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.ingredient-table .invalid-unit {
+  font-style: italic;
+  color: red;
+}
+
+.nutrition-table td,
+.ingredient-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 22px;
+}
+
+.nutrition-page h2 {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+
+.loading {
+    text-align: center;
+}
+
+.enter {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .nutrition-table,
+  .ingredient-table {
+    font-size: 18px;
+    margin-right: 30px;
+  }
+
+  .nutrition-page h2 {
+    font-size: 28px;
+  }
+  .nutrition-page input[type="text"] {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 55%;
+    margin-bottom: 10px;
+  }
+}

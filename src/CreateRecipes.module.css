@@ -1,0 +1,11 @@
+.field{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .button {
+        display: block;
+        margin: 0 auto;
+    }
+}

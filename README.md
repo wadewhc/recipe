@@ -1,26 +1,12 @@
 # Module 2 Group Assignment
 
-CSCI 5117, Spring 2024, [assignment description](https://canvas.umn.edu/courses/413159/pages/project-2)
+This project is a group assignment from the course Developing the Interactive Web.
 
-## App Info:
+We deployed it on Azure using a student trial account, which has since expired.
 
-* Team Name: Delulu
-* App Name: FoodieMate
-* App Link: <[FoodieMate](https://purple-coast-041010610.5.azurestaticapps.net/)>
-
-### Students
-
-* Hannah Cheng, cheng861@umn.edu
-* Lingyi Xu, xu001032@umn.edu
-* Yuankun Jiao, jiao0052@umn.edu
-* David Mai, mai00048@umn.edu
-* Jimmy Xiao, xiao0261@umn.edu
-
+Link: <[FoodieMate](https://purple-coast-041010610.5.azurestaticapps.net/)>
 
 ## Key Features
-
-**Describe the most challenging features you implemented
-(one sentence per bullet, maximum 4 bullets):**
 
 * Mealplanner to designate recipe plans for current and future days and for different meal times.
 
@@ -28,48 +14,13 @@ CSCI 5117, Spring 2024, [assignment description](https://canvas.umn.edu/courses/
 
 * Cloudinary image upload and storing for recipes. 
 
-**Which (if any) device integration(s) does your app support?**
-
 * Our app supports camera integration through the Cloudinary Widget.
-
-**Which (if any) progressive web app feature(s) does your app support?**
 
 * Our app supports Home Screen Installs to download the app to the device. 
 
 
 
-## Mockup images
-
-
-
-### Not log home page
-<!-- ![](https://media.giphy.com/media/26ufnwz3wDUli7GU0/giphy.gif) -->
-![not log home page](./mockup_images/not_log_home_page.png?raw=true)
-
-### User home page
-![user home page](./mockup_images/user_home_page.png?raw=true)
-
-### Recipe home page
-![recipe home page](./mockup_images/recipe_home_page.png?raw=true)
-
-### Create recipe page
-![create recipe page](./mockup_images/create_recipe_page.png?raw=true)
-
-### About recipe page
-![about recipe page](./mockup_images/about_recipe_page.png?raw=true)
-
-### Plans page
-![plans page](./mockup_images/plans_page.png?raw=true)
-
-## Testing Notes
-
-**Is there anything special we need to know in order to effectively test your app? (optional):**
-
-* N/A
-
-
-
-## Screenshots of Site (complete)
+## Screenshots of Site 
 
 ### Home Page
 User shopping list and static display of meal plans.
@@ -98,18 +49,9 @@ Page for each recipe. Shows name, tags, steps, ingredients, and an image of the 
 
 ## External Dependencies
 
-**Document integrations with 3rd Party code or services here:**
-
 * Bulma CSS: Page styling
 * Cloudinary: Image uploading and storing
 * (React) Google Charts: Nutrition Charts
 * Edamam: Nutrition API
 * Axios: Fetch requests for Nutrition API
 
-**If there's anything else you would like to disclose about how your project
-relied on external code, expertise, or anything else, please disclose that
-here:**
-
-* Referenced the Cloudinary tech share for Cloudinary widget and image uploads.
-
-...
